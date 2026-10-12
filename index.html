@@ -392,6 +392,17 @@ nav {
   font-weight: 300;
 }
 
+.service-payment, .service-payment-note {
+  display: block;
+  font-size: 0.72rem;
+  color: var(--muted);
+  line-height: 1.45;
+  margin-top: 0.25rem;
+}
+
+.service-payment-note { margin: 1rem 0; }
+
+
 .service-more {
   background: none;
   border: none;
@@ -1037,33 +1048,37 @@ footer {
 
     <div class="service-card fade-in">
       <h3 class="service-title">The 90-Day Push</h3>
-      <p class="service-desc">A structured coaching programme over 90 days. We choose one thing that will move your business forward and go after it together. No rabbit holes, no scope creep, no lists of 30 things you will never get to.</p>
+      <p class="service-desc">A focused coaching programme to help you choose one important business priority, make a practical plan and follow through with steady support.</p>
       <div class="service-footer">
-        <span class="service-price">£2,997</span>
+        <div class="service-pricing">
+          <span class="service-price">£2,700</span>
+          <span class="service-payment">or 3 monthly payments of £950</span>
+        </div>
         <button class="service-more" onclick="toggleService(this)">Find Out More</button>
       </div>
       <div class="service-accordion">
         <div class="accordion-section">
           <p class="accordion-heading">What you get</p>
           <ul class="accordion-list">
-            <li>Two 90-minute coaching sessions per month for 90 days</li>
-            <li>A clear 90-day plan developed together and built to execute</li>
-            <li>Two additional check-ins per week via email to keep you on track</li>
-            <li>Real-time assessment of behaviour patterns and blockers as they emerge</li>
-            <li>One defined outcome we identify together and work toward</li>
-            <li>Up to ten touch points per month, rigorous accountability shaped to how you actually work</li>
+            <li>Eight 60-minute one-to-one coaching calls over 90 days</li>
+            <li>Weekly calls for the first four weeks, then fortnightly calls for the remaining eight weeks</li>
+            <li>A practical 90-day action plan built around one priority</li>
+            <li>A short weekly planning and reflection check-in between calls</li>
+            <li>Relevant templates and practical AI guidance where they support your goal</li>
+            <li>Larger custom GPTs or business systems scoped separately</li>
           </ul>
         </div>
         <div class="accordion-section">
-          <p class="accordion-heading">What I do</p>
+          <p class="accordion-heading">How I support you</p>
           <ul class="accordion-list">
-            <li>Challenge your thinking when you need it</li>
-            <li>Keep you focused when you want to drift into new ideas</li>
-            <li>Spot patterns in real time and call them out</li>
-            <li>Shape the accountability to suit how you work, not a one-size template</li>
-            <li>Help you execute, not just plan</li>
+            <li>Help you choose the priority that will make the biggest useful difference</li>
+            <li>Turn the strategy into realistic weekly action</li>
+            <li>Challenge drift and help surface blockers as they arise</li>
+            <li>Review progress and adjust the plan as you learn what works</li>
           </ul>
         </div>
+        <p class="service-payment-note">Pay in full: £2,700. Payment plan: 3 monthly payments of £950 (£2,850 total).</p>
+        <a class="btn btn-primary" href="#contact">Book a discovery call</a>
       </div>
     </div>
 
